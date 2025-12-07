@@ -1,0 +1,1134 @@
+{
+  "restaurant": {
+    "id": "demo-restaurant-id",
+    "slug": "caesar-trattoria",
+    "name": "Caesar Trattoria",
+    "is_published": true,
+    "deleted_at": null,
+    "theme": {
+      "mode": "dark",
+      "brand": "#818cf8",
+      "accent": "#c7d2fe",
+      "pageBackground": "#020617",
+      "paperBackground": "#0f172a",
+      "mutedText": "#94a3b8",
+      "brick": false,
+      "brickLine": "rgba(255, 255, 255, 0.06)"
+    },
+    "info": {
+      "tagline": {
+        "en": "Mediterranean comfort food done right. A culinary journey through the heart of Italy and the Mediterranean coast, where tradition meets innovation in every dish. Nestled in the vibrant streets of Alicante.",
+        "es": "Comida mediterránea de verdad. Un viaje culinario por el corazón de Italia y la costa mediterránea, donde la tradición se encuentra con la innovación en cada plato."
+      },
+      "description": {
+        "en": "Our passion for fresh, locally-sourced ingredients drives everything we do. From hand-rolled pasta made daily in our kitchen to the finest catch from the Mediterranean Sea, each dish tells a story of tradition, family, and the love of good food. Our chefs, trained in the finest Italian kitchens, bring their expertise to create dishes that honor classic recipes while adding contemporary touches. We believe that dining is an experience to be savored, which is why we've created an atmosphere that's both elegant and welcoming. Whether you're celebrating a special occasion or simply enjoying a meal with loved ones, Caesar Trattoria offers an unforgettable culinary experience.",
+        "es": "Ubicado en las vibrantes calles de Alicante, Caesar Trattoria ha estado sirviendo auténtica cocina mediterránea durante más de dos décadas. Nuestra pasión por los ingredientes frescos y de origen local impulsa todo lo que hacemos. Desde la pasta hecha a mano diariamente en nuestra cocina hasta la mejor pesca del Mar Mediterráneo, cada plato cuenta una historia de tradición, familia y amor por la buena comida. Nuestros chefs, formados en las mejores cocinas italianas, aportan su experiencia para crear platos que honran las recetas clásicas mientras añaden toques contemporáneos. Creemos que cenar es una experiencia para saborear, por eso hemos creado una atmósfera que es a la vez elegante y acogedora. Ya sea que esté celebrando una ocasión especial o simplemente disfrutando de una comida con sus seres queridos, Caesar Trattoria ofrece una experiencia culinaria inolvidable. Nuestra extensa selección de vinos presenta botellas cuidadosamente seleccionadas de viñedos españoles locales y bodegas italianas de renombre, perfectamente combinadas para complementar nuestro menú. Únase a nosotros para el almuerzo, la cena o un aperitivo nocturno, y descubra por qué nos hemos convertido en un destino querido para los amantes de la comida en toda la región."
+      },
+      "about_text": {
+        "en": "Caesar Trattoria was founded in 2003 by Chef Marco Rossi, who brought his family's century-old recipes from a small village in Tuscany to the sunny shores of Alicante. What started as a humble trattoria has grown into one of the region's most beloved dining destinations, known for its commitment to authentic Italian and Mediterranean cuisine. Our kitchen team, led by Executive Chef Sofia Martinez, works tirelessly to source the finest ingredients from local Spanish producers and Italian importers. We maintain close relationships with fishermen in the Mediterranean, ensuring that only the freshest seafood graces our tables. Our pasta is made fresh daily using traditional methods, and our sauces are simmered for hours to develop deep, complex flavors. Beyond the food, Caesar Trattoria is about creating memories. We've hosted countless celebrations, from intimate anniversaries to grand wedding receptions. Our warm, family-friendly atmosphere makes every guest feel like part of our extended family. We take pride in our extensive wine cellar, which features over 200 carefully selected bottles from Italy and Spain. Our sommelier is always available to help you find the perfect pairing for your meal. Whether you're a first-time visitor or a regular patron, we invite you to experience the passion, tradition, and warmth that defines Caesar Trattoria.",
+        "es": "Caesar Trattoria fue fundado en 2003 por el Chef Marco Rossi, quien trajo las recetas centenarias de su familia desde un pequeño pueblo en la Toscana hasta las soleadas costas de Alicante. Lo que comenzó como una humilde trattoria se ha convertido en uno de los destinos gastronómicos más queridos de la región, conocido por su compromiso con la auténtica cocina italiana y mediterránea. Nuestro equipo de cocina, dirigido por la Chef Ejecutiva Sofia Martinez, trabaja incansablemente para obtener los mejores ingredientes de productores españoles locales e importadores italianos. Mantenemos relaciones cercanas con pescadores del Mediterráneo, asegurando que solo el marisco más fresco llegue a nuestras mesas. Nuestra pasta se hace fresca diariamente usando métodos tradicionales, y nuestras salsas se cocinan a fuego lento durante horas para desarrollar sabores profundos y complejos. Más allá de la comida, Caesar Trattoria se trata de crear recuerdos. Hemos acogido innumerables celebraciones, desde aniversarios íntimos hasta grandes recepciones de boda. Nuestra atmósfera cálida y familiar hace que cada invitado se sienta parte de nuestra familia extendida. Nos enorgullecemos de nuestra extensa bodega, que cuenta con más de 200 botellas cuidadosamente seleccionadas de Italia y España. Nuestro sommelier siempre está disponible para ayudarle a encontrar el maridaje perfecto para su comida. Ya sea que sea un visitante por primera vez o un cliente habitual, le invitamos a experimentar la pasión, la tradición y la calidez que define a Caesar Trattoria."
+      },
+      "contact": {
+        "phone": "+34 600 123 456",
+        "email": "bookings@caesar-trattoria.com"
+      },
+      "location": {
+        "address": "Calle Mayor 10",
+        "city": "Alicante",
+        "country": "Spain"
+      },
+      "hero_image_path": "/images/caesar-trattoria-hero.jpg",
+      "logo_path": "/restaurant-images/logos/caesar-trattoria.png"
+    },
+    "settings": {
+      "locale": "en-US",
+      "currency": "EUR",
+      "timezone": "Europe/Madrid"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "restaurant_id": "demo-restaurant-id",
+      "name": {
+        "en": "Starters",
+        "es": "Entrantes"
+      },
+      "description": {
+        "en": "Small plates to share.",
+        "es": "Platos pequeños para compartir."
+      },
+      "slug": "starters",
+      "sort_order": 1,
+      "is_available": true
+    },
+    {
+      "id": "cat-2",
+      "restaurant_id": "demo-restaurant-id",
+      "name": {
+        "en": "Fresh Pasta",
+        "es": "Pasta fresca"
+      },
+      "description": {
+        "en": "Homemade pasta with classic sauces.",
+        "es": "Pasta casera con salsas clásicas."
+      },
+      "slug": "pasta",
+      "sort_order": 2,
+      "is_available": true
+    },
+    {
+      "id": "cat-3",
+      "restaurant_id": "demo-restaurant-id",
+      "name": {
+        "en": "Mains",
+        "es": "Platos principales"
+      },
+      "description": {
+        "en": "Grilled meats and seafood.",
+        "es": "Carnes y mariscos a la parrilla."
+      },
+      "slug": "mains",
+      "sort_order": 3,
+      "is_available": true
+    },
+    {
+      "id": "cat-4",
+      "restaurant_id": "demo-restaurant-id",
+      "name": {
+        "en": "Desserts",
+        "es": "Postres"
+      },
+      "description": {
+        "en": "Sweet endings.",
+        "es": "Dulces finales."
+      },
+      "slug": "desserts",
+      "sort_order": 4,
+      "is_available": true
+    },
+    {
+      "id": "cat-5",
+      "restaurant_id": "demo-restaurant-id",
+      "name": {
+        "en": "Beverages",
+        "es": "Bebidas"
+      },
+      "description": {
+        "en": "Wines, cocktails, and soft drinks.",
+        "es": "Vinos, cócteles y refrescos."
+      },
+      "slug": "beverages",
+      "sort_order": 5,
+      "is_available": true
+    }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Bruschetta Trio",
+        "es": "Trío de bruschettas"
+      },
+      "description": {
+        "en": "Tomato & basil, roasted peppers, and mushroom tapenade on toasted sourdough.",
+        "es": "Tomate y albahaca, pimientos asados y tapenade de champiñones sobre pan de masa madre tostado."
+      },
+      "price": 7.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-2",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Calamari Fritti",
+        "es": "Calamares fritos"
+      },
+      "description": {
+        "en": "Crispy fried squid with lemon aioli.",
+        "es": "Calamares crujientes con alioli de limón."
+      },
+      "price": 9.9,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 2
+    },
+    {
+      "id": "item-3",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Antipasto Platter",
+        "es": "Tabla de antipasto"
+      },
+      "description": {
+        "en": "Selection of cured meats, cheeses, olives, and roasted vegetables.",
+        "es": "Selección de embutidos, quesos, aceitunas y verduras asadas."
+      },
+      "price": 12.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 3
+    },
+    {
+      "id": "item-4",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Caprese Salad",
+        "es": "Ensalada caprese"
+      },
+      "description": {
+        "en": "Fresh mozzarella, tomatoes, basil, and balsamic reduction.",
+        "es": "Mozzarella fresca, tomates, albahaca y reducción de balsámico."
+      },
+      "price": 8.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 4
+    },
+    {
+      "id": "item-5",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Arancini",
+        "es": "Arancini"
+      },
+      "description": {
+        "en": "Crispy risotto balls filled with mozzarella and served with marinara sauce.",
+        "es": "Bolitas de risotto crujientes rellenas de mozzarella y servidas con salsa marinara."
+      },
+      "price": 6.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 5
+    },
+    {
+      "id": "item-6",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Tagliatelle Bolognese",
+        "es": "Tagliatelle boloñesa"
+      },
+      "description": {
+        "en": "Slow-cooked beef ragu with fresh tagliatelle and Parmigiano Reggiano.",
+        "es": "Ragú de ternera cocinado a fuego lento con tagliatelle fresco y Parmigiano Reggiano."
+      },
+      "price": 13.9,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-7",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Penne Arrabbiata",
+        "es": "Penne arrabbiata"
+      },
+      "description": {
+        "en": "Spicy tomato sauce, garlic, chili, and fresh basil.",
+        "es": "Salsa de tomate picante, ajo, chile y albahaca fresca."
+      },
+      "price": 11.5,
+      "images": [],
+      "tags": ["vegan", "spicy"],
+      "is_available": true,
+      "sort_order": 2
+    },
+    {
+      "id": "item-8",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Fettuccine Alfredo",
+        "es": "Fettuccine alfredo"
+      },
+      "description": {
+        "en": "Creamy parmesan sauce with fresh fettuccine and black pepper.",
+        "es": "Salsa cremosa de parmesano con fettuccine fresco y pimienta negra."
+      },
+      "price": 12.9,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 3
+    },
+    {
+      "id": "item-9",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Linguine alle Vongole",
+        "es": "Linguine alle vongole"
+      },
+      "description": {
+        "en": "Fresh clams in white wine sauce with linguine and parsley.",
+        "es": "Almejas frescas en salsa de vino blanco con linguine y perejil."
+      },
+      "price": 15.5,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 4
+    },
+    {
+      "id": "item-10",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Ravioli di Ricotta",
+        "es": "Ravioli de ricotta"
+      },
+      "description": {
+        "en": "Homemade ravioli filled with ricotta and spinach, served with sage butter.",
+        "es": "Ravioli casero relleno de ricotta y espinacas, servido con mantequilla de salvia."
+      },
+      "price": 14.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 5
+    },
+    {
+      "id": "item-11",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Spaghetti Carbonara",
+        "es": "Spaghetti carbonara"
+      },
+      "description": {
+        "en": "Classic Roman pasta with eggs, pancetta, pecorino, and black pepper.",
+        "es": "Pasta clásica romana con huevos, panceta, pecorino y pimienta negra."
+      },
+      "price": 13.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 6
+    },
+    {
+      "id": "item-12",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Grilled Sea Bass",
+        "es": "Lubina a la parrilla"
+      },
+      "description": {
+        "en": "Whole sea bass with lemon, herbs, and grilled vegetables.",
+        "es": "Lubina entera con limón, hierbas y verduras a la parrilla."
+      },
+      "price": 19.9,
+      "images": [],
+      "tags": ["seafood", "gluten-free"],
+      "is_available": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-13",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Ribeye Steak",
+        "es": "Entrecot de ternera"
+      },
+      "description": {
+        "en": "250g ribeye, rosemary potatoes, and peppercorn sauce.",
+        "es": "Entrecot de 250g, patatas al romero y salsa de pimienta."
+      },
+      "price": 22.5,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 2
+    },
+    {
+      "id": "item-14",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Osso Buco",
+        "es": "Osso buco"
+      },
+      "description": {
+        "en": "Braised veal shank with saffron risotto and gremolata.",
+        "es": "Estofado de jarrete de ternera con risotto de azafrán y gremolata."
+      },
+      "price": 24.5,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 3
+    },
+    {
+      "id": "item-15",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Grilled Octopus",
+        "es": "Pulpo a la parrilla"
+      },
+      "description": {
+        "en": "Tender octopus with potatoes, paprika, and olive oil.",
+        "es": "Pulpo tierno con patatas, pimentón y aceite de oliva."
+      },
+      "price": 18.5,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 4
+    },
+    {
+      "id": "item-16",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Chicken Parmigiana",
+        "es": "Pollo parmigiana"
+      },
+      "description": {
+        "en": "Breaded chicken breast with marinara sauce, mozzarella, and spaghetti.",
+        "es": "Pechuga de pollo empanada con salsa marinara, mozzarella y spaghetti."
+      },
+      "price": 16.9,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 5
+    },
+    {
+      "id": "item-17",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Veal Saltimbocca",
+        "es": "Saltimbocca de ternera"
+      },
+      "description": {
+        "en": "Veal cutlets with prosciutto, sage, and white wine sauce.",
+        "es": "Chuletas de ternera con prosciutto, salvia y salsa de vino blanco."
+      },
+      "price": 21.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 6
+    },
+    {
+      "id": "item-18",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Tiramisu",
+        "es": "Tiramisú"
+      },
+      "description": {
+        "en": "Classic tiramisu with espresso-soaked ladyfingers and mascarpone cream.",
+        "es": "Clásico tiramisú con bizcochos empapados en espresso y crema de mascarpone."
+      },
+      "price": 6.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-19",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Panna Cotta",
+        "es": "Panna cotta"
+      },
+      "description": {
+        "en": "Vanilla panna cotta with berry coulis.",
+        "es": "Panna cotta de vainilla con coulis de frutos rojos."
+      },
+      "price": 6.0,
+      "images": [],
+      "tags": ["gluten-free"],
+      "is_available": true,
+      "sort_order": 2
+    },
+    {
+      "id": "item-20",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Cannoli",
+        "es": "Cannoli"
+      },
+      "description": {
+        "en": "Crispy shells filled with sweet ricotta and chocolate chips.",
+        "es": "Cáscaras crujientes rellenas de ricotta dulce y chips de chocolate."
+      },
+      "price": 5.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 3
+    },
+    {
+      "id": "item-21",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Gelato",
+        "es": "Gelato"
+      },
+      "description": {
+        "en": "Three scoops of house-made gelato. Choose from vanilla, chocolate, pistachio, or strawberry.",
+        "es": "Tres bolas de gelato casero. Elige entre vainilla, chocolate, pistacho o fresa."
+      },
+      "price": 5.0,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 4
+    },
+    {
+      "id": "item-22",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Affogato",
+        "es": "Affogato"
+      },
+      "description": {
+        "en": "Vanilla gelato drowned in hot espresso.",
+        "es": "Gelato de vainilla ahogado en espresso caliente."
+      },
+      "price": 5.5,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 5
+    },
+    {
+      "id": "item-23",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "House Wine",
+        "es": "Vino de la casa"
+      },
+      "description": {
+        "en": "Red or white wine by the glass.",
+        "es": "Vino tinto o blanco por copa."
+      },
+      "price": 4.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 1
+    },
+    {
+      "id": "item-24",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "Italian Aperitivo",
+        "es": "Aperitivo italiano"
+      },
+      "description": {
+        "en": "Aperol spritz, Negroni, or Americano.",
+        "es": "Aperol spritz, Negroni o Americano."
+      },
+      "price": 8.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 2
+    },
+    {
+      "id": "item-25",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "Espresso",
+        "es": "Espresso"
+      },
+      "description": {
+        "en": "Single or double shot of espresso.",
+        "es": "Café espresso simple o doble."
+      },
+      "price": 2.5,
+      "images": [],
+      "tags": ["vegetarian", "vegan", "gluten-free"],
+      "is_available": true,
+      "sort_order": 3
+    },
+    {
+      "id": "item-26",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Prosciutto e Melone",
+        "es": "Prosciutto e melone"
+      },
+      "description": {
+        "en": "Thinly sliced prosciutto with fresh cantaloupe.",
+        "es": "Prosciutto en lonchas finas con melón cantalupo fresco."
+      },
+      "price": 10.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 6
+    },
+    {
+      "id": "item-27",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Carpaccio di Manzo",
+        "es": "Carpaccio de ternera"
+      },
+      "description": {
+        "en": "Thinly sliced raw beef with arugula, parmesan, and truffle oil.",
+        "es": "Ternera cruda en lonchas finas con rúcula, parmesano y aceite de trufa."
+      },
+      "price": 13.5,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 7
+    },
+    {
+      "id": "item-28",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Burrata con Pomodori",
+        "es": "Burrata con tomates"
+      },
+      "description": {
+        "en": "Fresh burrata cheese with cherry tomatoes, basil, and balsamic glaze.",
+        "es": "Queso burrata fresco con tomates cherry, albahaca y glaseado de balsámico."
+      },
+      "price": 11.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 8
+    },
+    {
+      "id": "item-29",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Focaccia",
+        "es": "Focaccia"
+      },
+      "description": {
+        "en": "Freshly baked focaccia with rosemary, sea salt, and olive oil.",
+        "es": "Focaccia recién horneada con romero, sal marina y aceite de oliva."
+      },
+      "price": 5.5,
+      "images": [],
+      "tags": ["vegetarian", "vegan"],
+      "is_available": true,
+      "sort_order": 9
+    },
+    {
+      "id": "item-30",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-1",
+      "name": {
+        "en": "Insalata di Mare",
+        "es": "Ensalada de marisco"
+      },
+      "description": {
+        "en": "Mixed seafood salad with octopus, shrimp, and calamari in lemon vinaigrette.",
+        "es": "Ensalada de marisco mixta con pulpo, gambas y calamares en vinagreta de limón."
+      },
+      "price": 14.5,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 10
+    },
+    {
+      "id": "item-31",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Gnocchi al Pomodoro",
+        "es": "Ñoquis al pomodoro"
+      },
+      "description": {
+        "en": "Homemade potato gnocchi with fresh tomato sauce and basil.",
+        "es": "Ñoquis de patata caseros con salsa de tomate fresca y albahaca."
+      },
+      "price": 12.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 7
+    },
+    {
+      "id": "item-32",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Lasagna",
+        "es": "Lasaña"
+      },
+      "description": {
+        "en": "Layers of pasta, béchamel, meat sauce, and mozzarella, baked to perfection.",
+        "es": "Capas de pasta, bechamel, salsa de carne y mozzarella, horneadas a la perfección."
+      },
+      "price": 15.5,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 8
+    },
+    {
+      "id": "item-33",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Pappardelle al Cinghiale",
+        "es": "Pappardelle al cinghiale"
+      },
+      "description": {
+        "en": "Wide pasta ribbons with wild boar ragu and red wine.",
+        "es": "Cintas de pasta anchas con ragú de jabalí y vino tinto."
+      },
+      "price": 16.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 9
+    },
+    {
+      "id": "item-34",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Orecchiette con Broccoli",
+        "es": "Orecchiette con brócoli"
+      },
+      "description": {
+        "en": "Ear-shaped pasta with broccoli, garlic, anchovies, and chili flakes.",
+        "es": "Pasta en forma de oreja con brócoli, ajo, anchoas y copos de chile."
+      },
+      "price": 13.5,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 10
+    },
+    {
+      "id": "item-35",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Risotto ai Funghi",
+        "es": "Risotto de setas"
+      },
+      "description": {
+        "en": "Creamy arborio rice with mixed mushrooms, parmesan, and white wine.",
+        "es": "Arroz arborio cremoso con setas mixtas, parmesano y vino blanco."
+      },
+      "price": 14.9,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 11
+    },
+    {
+      "id": "item-36",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-2",
+      "name": {
+        "en": "Tortellini in Brodo",
+        "es": "Tortellini en caldo"
+      },
+      "description": {
+        "en": "Stuffed pasta in rich chicken broth, traditional from Emilia-Romagna.",
+        "es": "Pasta rellena en caldo de pollo rico, tradicional de Emilia-Romaña."
+      },
+      "price": 11.9,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 12
+    },
+    {
+      "id": "item-37",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Branzino al Forno",
+        "es": "Lubina al horno"
+      },
+      "description": {
+        "en": "Whole Mediterranean sea bass baked with herbs, lemon, and white wine.",
+        "es": "Lubina mediterránea entera horneada con hierbas, limón y vino blanco."
+      },
+      "price": 20.5,
+      "images": [],
+      "tags": ["seafood", "gluten-free"],
+      "is_available": true,
+      "sort_order": 7
+    },
+    {
+      "id": "item-38",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Bistecca alla Fiorentina",
+        "es": "Bistec a la florentina"
+      },
+      "description": {
+        "en": "Grilled T-bone steak, 1kg, served rare to medium-rare with arugula.",
+        "es": "Bistec T-bone a la parrilla, 1kg, servido poco hecho a medio con rúcula."
+      },
+      "price": 45.0,
+      "images": [],
+      "tags": ["beef"],
+      "is_available": true,
+      "sort_order": 8
+    },
+    {
+      "id": "item-39",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Pollo alla Cacciatora",
+        "es": "Pollo a la cazadora"
+      },
+      "description": {
+        "en": "Chicken braised with tomatoes, olives, capers, and white wine.",
+        "es": "Pollo estofado con tomates, aceitunas, alcaparras y vino blanco."
+      },
+      "price": 17.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 9
+    },
+    {
+      "id": "item-40",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Agnello al Forno",
+        "es": "Cordero al horno"
+      },
+      "description": {
+        "en": "Roasted leg of lamb with rosemary, garlic, and roasted potatoes.",
+        "es": "Pierna de cordero asada con romero, ajo y patatas asadas."
+      },
+      "price": 23.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 10
+    },
+    {
+      "id": "item-41",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Pesce Spada alla Griglia",
+        "es": "Pez espada a la parrilla"
+      },
+      "description": {
+        "en": "Grilled swordfish steak with caponata and lemon.",
+        "es": "Filete de pez espada a la parrilla con caponata y limón."
+      },
+      "price": 21.5,
+      "images": [],
+      "tags": ["seafood", "gluten-free"],
+      "is_available": true,
+      "sort_order": 11
+    },
+    {
+      "id": "item-42",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-3",
+      "name": {
+        "en": "Vitello Tonnato",
+        "es": "Vitello tonnato"
+      },
+      "description": {
+        "en": "Cold sliced veal with tuna and caper sauce, served with arugula.",
+        "es": "Ternera fría en lonchas con salsa de atún y alcaparras, servida con rúcula."
+      },
+      "price": 18.5,
+      "images": [],
+      "tags": ["seafood"],
+      "is_available": true,
+      "sort_order": 12
+    },
+    {
+      "id": "item-43",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Panna Cotta al Caffè",
+        "es": "Panna cotta al café"
+      },
+      "description": {
+        "en": "Coffee-flavored panna cotta with caramel sauce.",
+        "es": "Panna cotta con sabor a café con salsa de caramelo."
+      },
+      "price": 6.5,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 6
+    },
+    {
+      "id": "item-44",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Zabaglione",
+        "es": "Zabaglione"
+      },
+      "description": {
+        "en": "Warm egg custard with marsala wine, served with fresh berries.",
+        "es": "Natilla de huevo tibia con vino marsala, servida con frutos rojos frescos."
+      },
+      "price": 7.5,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 7
+    },
+    {
+      "id": "item-45",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Semifreddo",
+        "es": "Semifreddo"
+      },
+      "description": {
+        "en": "Frozen mousse with hazelnuts and chocolate, served with espresso.",
+        "es": "Mousse helada con avellanas y chocolate, servida con espresso."
+      },
+      "price": 7.0,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 8
+    },
+    {
+      "id": "item-46",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Biscotti",
+        "es": "Biscotti"
+      },
+      "description": {
+        "en": "Traditional almond cookies, perfect with coffee or dessert wine.",
+        "es": "Galletas tradicionales de almendra, perfectas con café o vino de postre."
+      },
+      "price": 4.5,
+      "images": [],
+      "tags": ["vegetarian"],
+      "is_available": true,
+      "sort_order": 9
+    },
+    {
+      "id": "item-47",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-4",
+      "name": {
+        "en": "Sorbetto",
+        "es": "Sorbete"
+      },
+      "description": {
+        "en": "Three scoops of house-made sorbet. Choose from lemon, raspberry, or mango.",
+        "es": "Tres bolas de sorbete casero. Elige entre limón, frambuesa o mango."
+      },
+      "price": 5.5,
+      "images": [],
+      "tags": ["vegetarian", "vegan", "gluten-free"],
+      "is_available": true,
+      "sort_order": 10
+    },
+    {
+      "id": "item-48",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "Limoncello",
+        "es": "Limoncello"
+      },
+      "description": {
+        "en": "Traditional Italian lemon liqueur, served chilled.",
+        "es": "Licor de limón italiano tradicional, servido frío."
+      },
+      "price": 6.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 4
+    },
+    {
+      "id": "item-49",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "Cappuccino",
+        "es": "Cappuccino"
+      },
+      "description": {
+        "en": "Espresso with steamed milk and foam.",
+        "es": "Espresso con leche al vapor y espuma."
+      },
+      "price": 3.5,
+      "images": [],
+      "tags": ["vegetarian", "gluten-free"],
+      "is_available": true,
+      "sort_order": 5
+    },
+    {
+      "id": "item-50",
+      "restaurant_id": "demo-restaurant-id",
+      "category_id": "cat-5",
+      "name": {
+        "en": "Prosecco",
+        "es": "Prosecco"
+      },
+      "description": {
+        "en": "Italian sparkling wine by the glass.",
+        "es": "Vino espumoso italiano por copa."
+      },
+      "price": 7.5,
+      "images": [],
+      "tags": [],
+      "is_available": true,
+      "sort_order": 6
+    }
+  ],
+  "openingHours": [
+    {
+      "id": "hours-1",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 0,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-2",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 0,
+      "opens_at": "19:00",
+      "closes_at": "23:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-3",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 1,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-4",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 1,
+      "opens_at": "19:00",
+      "closes_at": "23:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-5",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 2,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-6",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 2,
+      "opens_at": "19:00",
+      "closes_at": "23:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-7",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 3,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-8",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 3,
+      "opens_at": "19:00",
+      "closes_at": "23:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-9",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 4,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-10",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 4,
+      "opens_at": "19:00",
+      "closes_at": "23:30",
+      "is_closed": false
+    },
+    {
+      "id": "hours-11",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 5,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": false
+    },
+    {
+      "id": "hours-12",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 5,
+      "opens_at": "19:00",
+      "closes_at": "23:30",
+      "is_closed": false
+    },
+    {
+      "id": "hours-13",
+      "restaurant_id": "demo-restaurant-id",
+      "weekday": 6,
+      "opens_at": "12:00",
+      "closes_at": "16:00",
+      "is_closed": true
+    }
+  ]
+}
