@@ -59,8 +59,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
       <form className="space-y-5 max-w-md" action="/api/reservations" method="POST">
         <div>
           <label
-            className="block text-xs font-semibold uppercase tracking-wide mb-2"
-            style={{ color: 'var(--body-text)' } as CSSProperties}
+            className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
             htmlFor="name"
           >
             Name
@@ -68,7 +67,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
           <input
             id="name"
             name="name"
-            className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+            className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
             type="text"
             required
           />
@@ -76,8 +75,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label
-              className="block text-xs font-semibold uppercase tracking-wide mb-2"
-              style={{ color: 'var(--body-text)' } as CSSProperties}
+              className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
               htmlFor="email"
             >
               Email
@@ -85,14 +83,13 @@ export function ContactVariant1({ restaurant }: ContactProps) {
             <input
               id="email"
               name="email"
-              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
               type="email"
             />
           </div>
           <div>
             <label
-              className="block text-xs font-semibold uppercase tracking-wide mb-2"
-              style={{ color: 'var(--body-text)' } as CSSProperties}
+              className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
               htmlFor="phone"
             >
               Phone
@@ -100,7 +97,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
             <input
               id="phone"
               name="phone"
-              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
               type="tel"
             />
           </div>
@@ -108,8 +105,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
             <label
-              className="block text-xs font-semibold uppercase tracking-wide mb-2"
-              style={{ color: 'var(--body-text)' } as CSSProperties}
+              className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
               htmlFor="date"
             >
               Date
@@ -117,15 +113,14 @@ export function ContactVariant1({ restaurant }: ContactProps) {
             <input
               id="date"
               name="date"
-              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
               type="date"
               required
             />
           </div>
           <div>
             <label
-              className="block text-xs font-semibold uppercase tracking-wide mb-2"
-              style={{ color: 'var(--body-text)' } as CSSProperties}
+              className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
               htmlFor="time"
             >
               Time
@@ -133,15 +128,14 @@ export function ContactVariant1({ restaurant }: ContactProps) {
             <input
               id="time"
               name="time"
-              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
               type="time"
               required
             />
           </div>
           <div>
             <label
-              className="block text-xs font-semibold uppercase tracking-wide mb-2"
-              style={{ color: 'var(--body-text)' } as CSSProperties}
+              className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
               htmlFor="partySize"
             >
               Guests
@@ -149,7 +143,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
             <input
               id="partySize"
               name="partySize"
-              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
+              className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors"
               type="number"
               min={1}
               defaultValue={2}
@@ -159,8 +153,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
         </div>
         <div>
           <label
-            className="block text-xs font-semibold uppercase tracking-wide mb-2"
-            style={{ color: 'var(--body-text)' } as CSSProperties}
+            className="block text-xs font-semibold uppercase tracking-wide mb-2 text-gray-900"
             htmlFor="message"
           >
             Message
@@ -168,7 +161,7 @@ export function ContactVariant1({ restaurant }: ContactProps) {
           <textarea
             id="message"
             name="message"
-            className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors resize-none"
+            className="w-full border border-slate-300 rounded-sm px-3 py-2.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-[(--brand-color)] focus:border-transparent transition-colors resize-none"
             rows={3}
           />
         </div>
