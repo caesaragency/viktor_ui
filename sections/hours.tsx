@@ -64,45 +64,31 @@ export function HoursVariant1({ openingHours }: HoursProps) {
 				>
 					Hours & Location
 				</h2>
-
 				<div
-					className='h-px flex-1'
+					className='h-px flex-1 mt-1'
 					style={{ backgroundColor: 'var(--accent-color)' } as CSSProperties}
 				/>
-				<div className='flex gap-6 text-s font-semibold uppercase'>
-					<a
-						href='#hours_mg'
-						className='hover:underline cursor-pointer'
-						style={{ color: '#c7d2fe' }}
-					>
-						Hour
-					</a>
-					<a
-						href='#maps'
-						className='hover:underline cursor-pointer'
-						style={{ color: '#c7d2fe' }}
-					>
-						Map
-					</a>
-				</div>
 			</div>
 
 			<div className='mb-70'>
 				<ul
-					className='relative left-54 top-22 z-1 text-[14px] md:col-span-2 pb-10 pt-10 pl-15  w-100'
-					style={{ backgroundColor: 'rgba(0, 0, 0, 0.50)' }}
+					className='rounded-xl relative left-54 top-22 z-1 text-[14px] md:col-span-2 pb-10 pt-10 pl-18  w-100'
+					style={{
+						backgroundColor: 'rgba(0, 0, 0, 0.50)',
+						fontFamily: 'Smooch Sans',
+					}}
 				>
 					{formattedHours.map((item) => (
 						<li key={item.weekday} className='flex items-bas  '>
 							<span
-								className='font-bold min-w-10 text-[17px]'
+								className='font-bold min-w-10 text-[20px]'
 								style={{ color: '#8f99be' }}
 							>
 								{WEEKDAY_LABELS[item.weekday]}:
 							</span>
 							<div className='flex items-baseline ml-4 flex-wrap'>
 								<span
-									className='font-semibold text-[14px] whitespace-nowrap'
+									className='font-semibold text-[20px] whitespace-nowrap'
 									style={{ color: '#8f99be' }}
 								>
 									{item.timeRanges[0]}
@@ -111,7 +97,7 @@ export function HoursVariant1({ openingHours }: HoursProps) {
 									<>
 										<span className='ml-16' />
 										<span
-											className='font-semibold text-[14px] whitespace-nowrap'
+											className='font-semibold text-[20px] whitespace-nowrap'
 											style={{ color: '#8f99be' }}
 										>
 											{item.timeRanges[1]}
@@ -125,7 +111,7 @@ export function HoursVariant1({ openingHours }: HoursProps) {
 
 				<div
 					id='hours_mg'
-					className='absolute top-45 w-200 aspect-[5/3] md:col-span-9 overflow-hidden rounded-sm mx-auto bg-slate-50 shadow-sm '
+					className='absolute top-45 w-200 aspect-[5/3] md:col-span-9 overflow-hidden rounded-sm mx-auto bg-slate-50 shadow-sm ml-8'
 				>
 					<Image
 						src='/images/2.jpg'
@@ -138,34 +124,36 @@ export function HoursVariant1({ openingHours }: HoursProps) {
 			</div>
 
 			{/* Map Section */}
-			<div className='mt-8'>
-				<h3
-					className='text-xs font-semibold uppercase tracking-[0.3em] mb-4'
-					style={{ color: 'var(--accent-color)' } as CSSProperties}
-				>
-					Location
-				</h3>
-				<div
-					id='maps'
-					className='w-full h-64 sm:h-80 md:h-96 rounded-sm overflow-hidden border border-slate-200/80'
-				>
-					<iframe
-						src='https://www.google.com/maps?q=Calle+Mayor+10,+Alicante,+Spain&output=embed'
-						width='100%'
-						height='100%'
-						style={{ border: 0 }}
-						allowFullScreen
-						loading='lazy'
-						referrerPolicy='no-referrer-when-downgrade'
-						title='Restaurant Location - Calle Mayor 10, Alicante'
-					/>
+			<div className='ml-3'>
+				<div className='mt-8'>
+					<h3
+						className='text-xs font-semibold uppercase tracking-[0.3em] mb-4'
+						style={{ color: 'var(--accent-color)' } as CSSProperties}
+					>
+						Location
+					</h3>
+					<div
+						id='maps'
+						className='w-full h-64 sm:h-80 md:h-96 rounded-sm overflow-hidden border border-slate-200/80'
+					>
+						<iframe
+							src='https://www.google.com/maps?q=Calle+Mayor+10,+Alicante,+Spain&output=embed'
+							width='100%'
+							height='100%'
+							style={{ border: 0 }}
+							allowFullScreen
+							loading='lazy'
+							referrerPolicy='no-referrer-when-downgrade'
+							title='Restaurant Location - Calle Mayor 10, Alicante'
+						/>
+					</div>
+					<p
+						className='text-sm mt-3'
+						style={{ color: 'var(--secondary-text)' } as CSSProperties}
+					>
+						Calle Mayor 10, Alicante
+					</p>
 				</div>
-				<p
-					className='text-sm mt-3'
-					style={{ color: 'var(--secondary-text)' } as CSSProperties}
-				>
-					Calle Mayor 10, Alicante
-				</p>
 			</div>
 		</SectionBoundary>
 	);

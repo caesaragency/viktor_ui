@@ -1,54 +1,53 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  /* Restaurant theme variables */
-  --brand-color: #b22222;
-  --accent-color: #f5deb3;
-  --body-text: #1f2937;
-  --secondary-text: #475569;
-  --page-bg: #faf9f3;
-  --paper-bg: #ffffff;
+	--background: #ffffff;
+	--foreground: #171717;
+	/* Restaurant theme variables */
+	--brand-color: #b22222;
+	--accent-color: #f5deb3;
+	--body-text: #1f2937;
+	--secondary-text: #475569;
+	--page-bg: #faf9f3;
+	--paper-bg: #ffffff;
 }
 
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: system-ui, sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: system-ui, sans-serif;
 }
 
 /* Brick wall background pattern */
 .brick-wall {
-  background-color: #faf9f3;
-  background-image: 
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0, 0, 0, 0.03) 2px,
-      rgba(0, 0, 0, 0.03) 4px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 40px,
-      rgba(0, 0, 0, 0.03) 40px,
-      rgba(0, 0, 0, 0.03) 42px
-    );
-  background-size: 80px 40px;
-  background-repeat: repeat;
+	background-color: #faf9f3;
+	background-image: repeating-linear-gradient(
+			0deg,
+			transparent,
+			transparent 2px,
+			rgba(0, 0, 0, 0.03) 2px,
+			rgba(0, 0, 0, 0.03) 4px
+		),
+		repeating-linear-gradient(
+			90deg,
+			transparent,
+			transparent 40px,
+			rgba(0, 0, 0, 0.03) 40px,
+			rgba(0, 0, 0, 0.03) 42px
+		);
+	background-size: 80px 40px;
+	background-repeat: repeat;
 }
 
 /* Smooth scrolling for anchor links */
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
