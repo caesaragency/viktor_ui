@@ -1,4 +1,3 @@
-// viktor/hours.tsx
 // Hours Section - Variant 1 (Main - standard)
 
 import Image from 'next/image';
@@ -144,14 +143,14 @@ export function HoursVariant1({ openingHours }: HoursProps) {
 							allowFullScreen
 							loading='lazy'
 							referrerPolicy='no-referrer-when-downgrade'
-							title='Restaurant Location - Calle Mayor 10, Alicante'
+							title='Restaurant Location - Mayor 10, Alicante'
 						/>
 					</div>
 					<p
 						className='text-sm mt-3'
 						style={{ color: 'var(--secondary-text)' } as CSSProperties}
 					>
-						Calle Mayor 10, Alicante
+						Mayor 10, Alicante
 					</p>
 				</div>
 			</div>
